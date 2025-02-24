@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main1 {
+    background-image: url('images/bg\ image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    height: 100vh;
+}
+.bold {
+    font-weight: bolder;
+}
+.firstcard {
+    margin-top: 150px;
+}
+
+.allpicture {
+    position: relative;
+    top: -70px;
+    width: 25%;
+    gap: 50px;
+    height: 150px;
+    
+
+}
+@media ( min-width: 767px) and (max-width: 991px) {
+    .allpicture {
+        flex-direction: column;
+        width: 35%;
+        background-color: #fff !important;
+        /* box-sizing: border-box; */
+        
+    } 
+}
+@media ( min-width: 0px) and (max-width: 766px) {
+    .allpicture {
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        background-color: #fff !important;
+        display: contents;
+        
+    }
+    .backimage img {
+        display: flex;
+        /* justify-content: center;  */
+        margin: auto
+    }
+}
+.firstcard h1 {
+    margin-top: 50px;
+    font-size: 62px;
+    font-weight: 460;
+}
+
+.picture1 {
+    height: 90vh;
+}
+
+
+
+
+/* secend page  */
+
+
+
+.building {
+    background-image: url(images/2nd\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardhover1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover7:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+.cardhover8:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} 
+
+.bigtext {
+    letter-spacing: 0.5ch;
+    font-family: 'Old Standard TT';
+    font-size: 80px;
+}
+.bigtext2 {
+    font-family: 'Old Standard TT';
+}
+.main2 {
+    font-family: 'Old Standard TT';
+
+}
+
+.centerimage {
+    position: absolute;
+    width: 65%;
+    left: 240px;
+    margin-top: -65px;
+    height: 400px;
+}
+
+/* @media (max-width: 992px) {
+    .centerimage {
+        position: absolute;
+        width: 55%;
+        
+        
+    }
+} */
+
+@media (max-width: 766px) {
+    .bigtext {
+        font-size: 55px;
+    }
+   
+}
+@media (max-width: 400px) {
+    .bigtext {
+        font-size: 40px;
+    }
+}
+
+.list1 {
+    list-style: none;
+}
+
+.footerhead {
+    font-family: 'Old Standard TT';
+}
+@media (min-width:767px) and (max-width:1400px){
+    .mid-img img{
+        position: relative;
+        /* top: -316px;
+        width: 741px;
+        left: 293px; */
+    }
+    .backimage {
+        padding-top: 100px;
+        display: flex;
+        
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.errorbutton a {
+    text-decoration: none;
+    color: inherit;
+}
